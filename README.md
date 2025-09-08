@@ -12,7 +12,7 @@ Pré-requisitos:
 
 1. **Clonar o Repositório e configurar env**:
    - Clone o projeto: git clone https://github.com/PedroC0de/TopCine.git
-   - Navegue para o diretório do projeto: cd catalogo_filmes
+   - Navegue para o diretório backend do projeto: cd catalogo_filmes/backend
    - Copie o arquivo de exemplo de ambiente: cp .env.example .env
 
 2. **Configurar o arquivo .env**:
