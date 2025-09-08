@@ -29,6 +29,7 @@ Pré-requisitos:
      - APP_URL_API=http://localhost:8000/api
 
 3. **Subir os containers**:
+   - volte para a raíz do projeto: cd..
    - Execute: docker-compose up -d --build
    - O front estará disponível em http://localhost:8000/.
    - A api estará disponível em http://localhost:8000/api.
@@ -53,8 +54,8 @@ Chamada da api de favoritos no Vue.
 - **Acesso à interface**: Abra http://localhost:8000. Verifique lista de filmes, busca, e seção de favoritos (adicione um filme e filtre por gênero).
 - **Testes manuais**:
   - Busque um filme: Digite no input de busca e veja resultados.
-  - Adicione aos favoritos: Clique no botão; verifique se persiste após atualizar a tela.
-  - Filtros: Selecione gênero;
+  - Adicione aos favoritos: Clique no botão, verifique se persiste após atualizar a tela.
+  - Filtros: Selecione gênero
   - Responsivo:  confirme grid responsivo com o DevTools
 
 Se falhar, verifique logs e .env.
