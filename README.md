@@ -29,7 +29,7 @@ Pré-requisitos:
      - APP_URL_API=http://localhost:8000/api
 
 3. **Subir os containers**:
-   - volte para a raíz do projeto: cd..
+   - volte para a raíz do projeto: cd ..
    - Execute: docker-compose up -d --build
    - O front estará disponível em http://localhost:8000/.
    - A api estará disponível em http://localhost:8000/api.
